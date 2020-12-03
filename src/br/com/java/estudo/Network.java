@@ -39,7 +39,6 @@ public class Network {
 
     public double[] propagation(double[] x) {
 
-        int aaa = 0;
         if (x == null) return null;
 
         double[] saidaOculta = new double[hiddenLayer.length];

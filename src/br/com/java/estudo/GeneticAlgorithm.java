@@ -3,6 +3,8 @@ package br.com.java.estudo;
 import java.util.ArrayList;
 import java.util.List;
 
+import static br.com.java.estudo.Main.rodar;
+
 public class GeneticAlgorithm {
 
     private double crossoverRate;
@@ -34,7 +36,11 @@ public class GeneticAlgorithm {
     public void evaluation(Population population) {
 
         for (int i = 0; i < population.getChromosomes().length; i++) {
-            this.fitnessCalculus(population.getChromosome(i));
+            if (rodar) {
+                this.fitnessCalculus(population.getChromosome(i));
+            } else {
+                break;
+            }
         }
     }
 
@@ -48,7 +54,7 @@ public class GeneticAlgorithm {
 
         boolean agentWalked = true;
         List<String> path = new ArrayList<String>();
-        while (agentWalked) {
+        while (agentWalked && rodar) {
             double[] surrondingsResults = agent.getSurroundings();
             double[] weightResults = network.propagation(surrondingsResults);
             agentWalked = agent.walk(chooseHighestWeight(weightResults));
