@@ -1,5 +1,8 @@
 package br.com.java.estudo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GeneticAlgorithm {
 
     private double crossoverRate;
@@ -44,15 +47,17 @@ public class GeneticAlgorithm {
         network.setPesosNaRede(8, chromosome.getWeight());
 
         boolean agentWalked = true;
-
+        List<String> path = new ArrayList<String>();
         while (agentWalked) {
             double[] surrondingsResults = agent.getSurroundings();
             double[] weightResults = network.propagation(surrondingsResults);
             agentWalked = agent.walk(chooseHighestWeight(weightResults));
+            path.add(agent.getCoordinates());
         }
 
         double score = agent.getScore();
         chromosome.setFitness(score);
+        chromosome.setPath(path);
     }
 
 

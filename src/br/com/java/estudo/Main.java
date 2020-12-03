@@ -15,7 +15,7 @@ public class Main {
             ga.evaluation(population);
 
             Chromosome fittest = population.getFittest(0);
-           System.out.println("Generation " + generation + " Best solution (" + fittest.getFitness() + "): " + fittest.toString());
+            System.out.println("Generation " + generation + " Best solution (" + fittest.getFitness() + "): " + fittest.toString());
 
             population = ga.crossover(population);
             population = ga.mutate(population);

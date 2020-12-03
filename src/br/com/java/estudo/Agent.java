@@ -1,12 +1,15 @@
 package br.com.java.estudo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static br.com.java.estudo.Utils.distancia;
 
 public class Agent {
 
     private Maze maze;
-    private int coordinateX;
-    private int coordinateY;
+    public int coordinateX;
+    public int coordinateY;
     private int moves;
     private int collectedCoins;
     private Chromosome chromosome;
@@ -23,7 +26,6 @@ public class Agent {
     }
 
     public boolean walk(int direction) {
-
         boolean caminhou = false;
 
         if (moves > maxMoves) {
@@ -36,25 +38,20 @@ public class Agent {
                 this.coordinateY--;
                 caminhou = true;
 
-                //System.out.println("ESQUERDA - " + this.coordinateX + " - " + this.coordinateY);
-
             } else if (direction == 3 && this.maze.isValid(this.coordinateX, this.coordinateY + 1)) {
                 this.coordinateY++;
                 caminhou = true;
 
-                //System.out.println("DIREITA - " + this.coordinateX + " - " + this.coordinateY);
 
             } else if (direction == 2 && this.maze.isValid(this.coordinateX + 1, this.coordinateY)) {
                 this.coordinateX++;
                 caminhou = true;
 
-                //System.out.println("BAIXO - " + this.coordinateX + " - " + this.coordinateY);
 
             } else if (direction == 0 && this.maze.isValid(this.coordinateX - 1, this.coordinateY)) {
                 this.coordinateX--;
                 caminhou = true;
 
-                // System.out.println("CIMA - " + this.coordinateX + " - " + this.coordinateY);
             }
 
             if (caminhou) {
@@ -131,6 +128,10 @@ public class Agent {
 
         double distancia = Utils.distancia(9, 9, 9, 9) + 0.1;
         return teste2 / distancia;
+    }
+
+    public String getCoordinates() {
+        return this.coordinateX + " - " + this.coordinateY;
     }
 
 }

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f3d8c8-7ad4-4695-afe7-55da98f546ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Agent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Chromosome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Chromosome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/GeneticAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,29 +26,24 @@
   </component>
   <component name="ProjectId" id="1l8EV9XX39BLijHfURqulsv4csG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/java/estudo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marcelo\Desktop\inteligencia-artificial\src\br\com\java\estudo" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -79,11 +73,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606970338695</updated>
       <workItem from="1606970342333" duration="27416000" />
+      <workItem from="1607018987552" duration="1042000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,6 +90,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="583" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1607020014487">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="583" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1607020014487" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1607020021677">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607020021677" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1607020021675">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607020021675" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1607020021674">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607020021674" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1607020021676">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607020021676" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1607019161732">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1607019161732" />
+    <state x="541" y="157" width="597" height="735" key="find.popup" timestamp="1607019167944">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="157" width="597" height="735" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607019167944" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1607019158966">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607019158966" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
