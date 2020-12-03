@@ -1,5 +1,7 @@
 package br.com.java.estudo;
 
+import java.util.List;
+
 public class Main {
 
     public static  boolean rodar = true;
@@ -18,7 +20,7 @@ public class Main {
 
             Chromosome fittest = population.getFittest(0);
             System.out.println("Geração: " + generation + " cromossomo com melhor fitness (" + fittest.getFitness() + "): " + fittest.toString());
-
+            
             population = ga.crossover(population);
             population = ga.mutate(population);
             ga.evaluation(population);

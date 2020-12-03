@@ -4,16 +4,13 @@
     <list default="true" id="d8f3d8c8-7ad4-4695-afe7-55da98f546ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Chromosome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Chromosome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/GeneticAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/GeneticAlgorithm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/inteligencia-artificial/br/com/java/estudo/Network.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Agent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Chromosome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Chromosome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/GeneticAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/java/estudo/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/java/estudo/Network.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +152,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/java/estudo/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/java/estudo/GeneticAlgorithm.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="76" />
+          <url>file://$PROJECT_DIR$/src/br/com/java/estudo/Agent.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

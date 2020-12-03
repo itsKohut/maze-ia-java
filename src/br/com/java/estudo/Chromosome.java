@@ -1,13 +1,12 @@
 package br.com.java.estudo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Chromosome {
 
     private double[] chromosome;
-    private List<String> path;
+    public List<String> path;
     private double fitness;
 
     public Chromosome() {

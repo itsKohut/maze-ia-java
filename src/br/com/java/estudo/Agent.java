@@ -56,6 +56,7 @@ public class Agent {
             }
 
             if (caminhou) {
+                this.chromosome.path.add(this.getCoordinates());
                 this.moves++;
                 if (this.maze.getPositionValue(this.coordinateX, this.coordinateY) == "M") {
                     this.maze.removeCoin(coordinateX, coordinateY);
