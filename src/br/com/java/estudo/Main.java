@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int maxGenerations = 1000;
-        GeneticAlgorithm ga = new GeneticAlgorithm(200, 0.05, 0.9, 1, 6);
+        int maxGenerations = 500;
+        GeneticAlgorithm ga = new GeneticAlgorithm(200, 0.1, 0.9, 2, 10);
         Population population = ga.initPopulation();
 
         int generation = 0;
@@ -15,7 +15,7 @@ public class Main {
             ga.evaluation(population);
 
             Chromosome fittest = population.getFittest(0);
-           // System.out.println("Generation " + generation + " Best solution (" + fittest.getFitness() + "): " + fittest.toString());
+           System.out.println("Generation " + generation + " Best solution (" + fittest.getFitness() + "): " + fittest.toString());
 
             population = ga.crossover(population);
             population = ga.mutate(population);

@@ -27,6 +27,7 @@ public class Agent {
         boolean caminhou = false;
 
         if (moves > maxMoves) {
+            collectedCoins = 0;
             moves = 0;
 
         } else {
@@ -65,7 +66,7 @@ public class Agent {
             }
 
             if (this.maze.isValid(coordinateX, coordinateY) && this.maze.getPositionValue(coordinateX, coordinateY) == "S") {
-                System.out.println("Achou saida <==========================================");
+                System.out.println("Achou saida");
             }
         }
 
